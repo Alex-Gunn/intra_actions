@@ -33,3 +33,8 @@ jobs:
       run: |
         # running tests of the project according to flake8
         python -m flake8
+        # change dir to folder with manage.py
+        #<intra_actions_root_folder>/<project_folder>/manage.py
+        cd intra_project/
+        python manage.py test
+
