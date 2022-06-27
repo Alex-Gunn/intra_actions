@@ -35,6 +35,6 @@ jobs:
         python -m flake8
         # change dir to folder with manage.py
         #<intra_actions_root_folder>/<project_folder>/manage.py
-        cd intra_project/
+        cd infra_project/
         python manage.py test
 
